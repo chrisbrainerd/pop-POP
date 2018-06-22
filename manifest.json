@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Pop Pop!",
+  "description": "Adds effects on screen when you do various mouse events to make screen recordings more clear.",
+  "version": "0.0.1",
+  "author": "Chris Brainerd",
+  "browser_action": {
+    "default_icon": "pop-pop.png",
+    "default_title": "Pop Pop!"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}   
